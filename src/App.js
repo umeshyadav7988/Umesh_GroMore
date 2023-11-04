@@ -12,9 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Switch> {/* React Router that is used to wrap a set of  */}
-
-      {/* one route is matched and rendered at a time */}
+      <Switch> 
         <Route exact path="/" component={Home} /> 
         <Route exact path="/about" component={About} />
         <Route exact path="/service" component={Service} />
