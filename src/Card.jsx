@@ -15,7 +15,7 @@ function Card({ title, imgsrc }) {
             Looking to kickstart your {title} journey affordably? Explore our budget-friendly {title} courses at Growmore! 
             </p>
             <NavLink to="/contact" className="btn btn-primary">
-            Get Quote
+            Enroll
             </NavLink>
           </div>
         </div>
