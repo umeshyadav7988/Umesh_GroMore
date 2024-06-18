@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar  />
       <Switch> 
         <Route exact path="/" component={Home} /> 
         <Route exact path="/about" component={About} />
